@@ -1,0 +1,9 @@
+void Swap(int *first, int *second)
+{
+    if(*first != *second)
+    {
+        T tmp = *first;
+        *first = *second;
+        *second = tmp;
+    }
+}
