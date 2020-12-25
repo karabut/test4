@@ -11,7 +11,7 @@ void Swap(int *first, int *second)
 
 void swap(int &first ,int &second)
 {
-    first = first + second;
-    second = first - second;
-    first = first - second;
+    int tmp = first;
+    first = second;
+    second = tmp;
 }
